@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "H:\\Android_Project\\MathWizard\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v13\\values-v13.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Shubhanshu Singh\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\e0e1ad1572bdfeda0a830a91340a8d87\\res\\values-v13\\values-v13.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "58",
+                        "endOffsets": "109"
+                    }
+                }
+            ]
+        }
+    ]
+}
