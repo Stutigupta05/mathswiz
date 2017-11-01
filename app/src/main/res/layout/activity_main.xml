@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    android:background="@drawable/abc"
+    tools:context="com.shubhanshu.mathwizard.MainActivity">
+
+
+
+    <Button
+        android:id="@+id/easy"
+        android:layout_width="80pt"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50pt"
+        android:background="#70FF0000"
+        android:color="#66FF0000"
+        android:alpha="0.7"
+        android:layout_marginLeft="60pt"
+        android:layout_marginRight="20pt"
+        android:text="EASY"
+        android:textSize="15pt"
+
+        />
+
+    <Button
+        android:id="@+id/medium"
+        android:background="#70FF0000"
+        android:layout_width="80pt"
+        android:layout_marginTop="10pt"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60pt"
+        android:layout_marginRight="20pt"
+        android:text="MEADIUM"
+        android:textSize="15pt"
+         />
+
+    <Button
+        android:id="@+id/hard"
+        android:background="#70FF0000"
+        android:layout_marginTop="10pt"
+        android:layout_width="80pt"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60pt"
+        android:layout_marginRight="20pt"
+        android:text="HARD"
+        android:textSize="15pt"
+        />
+
+    <Button
+        android:id="@+id/expert"
+        android:background="#70FF0000"
+        android:layout_marginTop="10pt"
+        android:layout_width="80pt"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60pt"
+        android:layout_marginRight="20pt"
+        android:text="EXPERT"
+        android:textSize="15pt"
+         />
+
+    <Button
+        android:id="@+id/highscore"
+        android:background="#70FF0000"
+        android:layout_marginTop="10pt"
+        android:layout_width="80pt"
+        android:layout_height="wrap_content"
+        android:text="HIGHSCORE"
+        android:layout_marginLeft="60pt"
+        android:layout_marginRight="20pt"
+        android:textSize="15pt"
+        />
+
+</LinearLayout>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="20pt"
+    android:background="@mipmap/ic_launcher"
+    tools:context="com.shubhanshu.mathwizard.GameActivity"
+    android:weightSum="1">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="40pt"
+        android:textSize="20pt"
+        android:text="" />
+
+    <RadioGroup
+        android:id="@+id/groupbutton"
+        android:layout_width="match_parent"
+        android:layout_height="186dp"
+        android:layout_weight="0.81">
+
+        <RadioButton
+            android:id="@+id/rbutton1"
+            android:layout_width="wrap_content"
+            android:layout_height="59dp"
+            android:text="OPTION 1" />
+
+        <RadioButton
+            android:id="@+id/rbutton2"
+            android:layout_width="wrap_content"
+            android:layout_height="56dp"
+            android:text="OPTION 2" />
+
+        <RadioButton
+            android:id="@+id/rbutton3"
+            android:layout_width="wrap_content"
+            android:layout_height="51dp"
+            android:text="OPTION 3" />
+
+        <RadioButton
+            android:id="@+id/rbutton4"
+            android:layout_width="match_parent"
+            android:layout_height="54dp"
+            android:text="OPTION 4" />
+    </RadioGroup>
+
+</LinearLayout>
